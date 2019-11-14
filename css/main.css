@@ -1,0 +1,153 @@
+/****** BASE STYLES ******/
+body {
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+}
+#contact {
+    height: 500px;
+}
+
+#habits {
+    height: 650px;
+}
+
+/****** GRID ******/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+.half-width {
+    width: 600px;
+    float: left;
+  }
+.third-width {
+    width: 400px;
+    float: left;
+    padding: 0 30px 0 0;
+  }
+
+
+
+ /****** HEADER ******/ 
+header {
+    background: #d7d7d9;
+    background-size: cover;
+    height: 450px;
+}
+
+header h1 {
+    color: #2b2b2b;
+    font-family: 'Roboto Slab', serif;
+    font-size: 42px;
+    padding: 120px 0 35px 0;
+}
+
+header h1 span {
+    color: #687E8C;
+}
+
+header h3 {
+    color: #0F1D26;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+nav {
+    float: right;
+    padding: 10px 25px 10px 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+nav a {
+    color: #0f1d26;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/******** ABOUT *******/
+
+#about{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background: url('../img/stairs.jpg') 
+}
+
+#about h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about p {
+    font-size: 24px;
+    padding: 0 300px 0 300px;
+}
+
+/******** HABITS *******/
+
+#habits h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px 0 60px 0;
+}
+
+#habits h3{
+    text-align: center;
+}
+
+#habits p{
+    padding: 0 0 20px 20px;
+    text-align: center;
+}
+
+/******** CONTACT *******/
+
+#contact {
+    background: url('../img/bold-background.jpg');
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+}
+
+#contact h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #0F1D26; 
+    padding: 50px 0 0 0;
+}
+
+#contact p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact a:link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0F1D26;
+}
+
+#contact a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: #4D6473;
+} 
+
+#contact ul {
+    list-style-type: none;  
+}
+
